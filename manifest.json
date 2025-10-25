@@ -1,0 +1,18 @@
+{
+    "name": "ECharts Bar Chart",
+    "organization": "Your Team Name",
+    "description": "A custom bar chart using Apache ECharts",
+    "components": {
+      "viz": {
+        "script": "index.js",
+        "style": "style.css",
+        "icon": "bar_chart"
+      }
+    },
+    "resources": {
+      "scripts": [
+        "https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"
+      ]
+    }
+  }
+  
