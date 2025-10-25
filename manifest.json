@@ -1,18 +1,24 @@
 {
-    "name": "ECharts Bar Chart",
-    "organization": "Your Team Name",
-    "description": "A custom bar chart using Apache ECharts",
-    "components": {
-      "viz": {
-        "script": "index.js",
-        "style": "style.css",
-        "icon": "bar_chart"
+  "name": "ECharts Bar Chart",
+  "organization": "Your Team Name",
+  "description": "A custom bar chart using Apache ECharts",
+  "logoUrl": "https://cdn.jsdelivr.net/gh/vaishnavi-r-nair/echarts-test@main/logo.png",
+  "organizationUrl": "https://github.com/vaishnavi-r-nair",
+  "supportUrl": "https://github.com/vaishnavi-r-nair/issues",
+  "devMode": true,
+  "components": [
+    {
+      "id": "echarts_bar_chart",
+      "name": "ECharts Bar Chart",
+      "description": "A simple bar chart powered by Apache ECharts",
+      "js": "https://cdn.jsdelivr.net/gh/vaishnavi-r-nair/echarts-test@main/index.js",
+      "css": "https://cdn.jsdelivr.net/gh/vaishnavi-r-nair/echarts-test@main/style.css",
+      "icon": "bar_chart",
+      "resources": {
+        "js": [
+          "https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"
+        ]
       }
-    },
-    "resources": {
-      "scripts": [
-        "https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"
-      ]
     }
-  }
-  
+  ]
+}
