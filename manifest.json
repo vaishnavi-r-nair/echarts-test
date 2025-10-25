@@ -1,6 +1,6 @@
 {
   "name": "ECharts Bar Chart",
-  "organization": "Your Team Name",
+  "organization": "Vaishnavi R Nair",
   "description": "A custom bar chart using Apache ECharts",
   "logoUrl": "https://cdn.jsdelivr.net/gh/vaishnavi-r-nair/echarts-test@main/logo.png",
   "organizationUrl": "https://github.com/vaishnavi-r-nair",
@@ -14,10 +14,31 @@
       "js": "https://cdn.jsdelivr.net/gh/vaishnavi-r-nair/echarts-test@main/index.js",
       "css": "https://cdn.jsdelivr.net/gh/vaishnavi-r-nair/echarts-test@main/style.css",
       "icon": "bar_chart",
-      "resources": {
-        "js": [
-          "https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"
+      "libraries": [
+        "https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"
+      ],
+      "fields": {
+        "dimensions": [
+          {
+            "id": "category",
+            "name": "Category",
+            "type": "TEXT"
+          }
+        ],
+        "metrics": [
+          {
+            "id": "value",
+            "name": "Value",
+            "type": "NUMBER"
+          }
         ]
+      },
+      "options": {
+        "color": {
+          "label": "Bar Color",
+          "defaultValue": "#4CAF50",
+          "type": "COLOR"
+        }
       }
     }
   ]
